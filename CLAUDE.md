@@ -45,7 +45,9 @@ Components live in `src/components/`, each with a co-located CSS file. Pages in 
 
 ## Docker
 
-The Dockerfile is a two-stage build: stage 1 builds with node, stage 2 serves with nginx. The nginx.conf handles SPA routing (try_files fallback to index.html) and static asset caching. The container exposes port 80, mapped to host port 5000 via docker-compose.
+The Dockerfile is a two-stage build: stage 1 builds with node, stage 2 serves with nginx. The nginx.conf handles SPA routing (try_files fallback to index.html) and static asset caching.
+A cloudflared tunnel is used for routing trafic to the web application and handle encryption in their infrastructure.
+
 
 ## Future plans
 
