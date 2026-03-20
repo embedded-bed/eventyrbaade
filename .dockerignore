@@ -1,7 +1,6 @@
 node_modules
-secrets
-
 build/
+secrets
 
 .env
 .env.local
@@ -9,3 +8,10 @@ build/
 
 .DS_Store
 *.log
+
+.git
+.gitignore
+.dockerignore
+
+README.md
+project.md

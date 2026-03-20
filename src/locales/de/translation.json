@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "boats": "Boote",
+    "about": "Über mich",
+    "contact": "Kontakt",
+    "giftcard": "Geschenkkarten kaufen",
+    "phone": "6053 4381"
+  },
+  "hero": {
+    "title": "Eventyrbåde",
+    "subtitle": "Erlebnisse auf dem Wasser bei Præstø Fjord",
+    "text": "Unsere Erlebnisboote sind perfekt für Geburtstage, Mottopartys, Firmenevents oder einfach einen Spaßtag auf dem Wasser. Wir arrangieren auch gerne Veranstaltungen nach Ihren speziellen Wünschen.",
+    "cta_contact": "Kontakt",
+    "cta_boats": "Unsere Boote"
+  },
+  "boats": {
+    "title": "Unsere Boote",
+    "cta": "Kontakt",
+    "glaskano": {
+      "title": "Glaskanu",
+      "desc": "Buchen Sie Ihre ganz persönliche Wassersafari im Glaskanu und beobachten Sie Fische – vielleicht sogar einen Seehund oder Schweinswal."
+    },
+    "picnic": {
+      "title": "Picknickboot",
+      "desc": "Genießen Sie ein Lunchpaket mit Familie oder Freunden bei einer entspannten Fahrt rund um den Fjord."
+    },
+    "children": {
+      "title": "Segelroute für Kinder",
+      "desc": "Eine spezielle Segelroute für Familien mit Kindern im Glaskanu, bei der Sie Piratenflaggen finden und Aufgaben lösen müssen."
+    }
+  },
+  "skipper": {
+    "title": "Werde für 1 Tag zum \"Skipper\"",
+    "text": "4-stündige Mittagsfahrt im Picknickboot zur Weißen Lagune an der Spitze von Feddet. Springen Sie ins Wasser oder segeln Sie gemütlich zum Hafen von Præstø.",
+    "price": "Preis nur kr. 1.200",
+    "note": "Rufen Sie für verfügbare Zeiten an. Folgen Sie der geplanten Segelroute vom Feddet Strand Resort (Fed Havn). Es wird kein Segelschein benötigt, Mindestalter 21 Jahre.",
+    "detail1": "Zugelassen für bis zu 8 Personen oder 690 kg",
+    "detail2": "Benzin ist im Preis inbegriffen",
+    "detail3": "Leihe von Rettungswesten inklusive",
+    "detail4": "Kostenloser Parkplatz am Hafen des Feddet Strand Resort",
+    "cta": "Anrufen und buchen"
+  },
+  "events": {
+    "title": "Veranstaltungen für Unternehmen und Institutionen",
+    "p1": "Glaskanus können in Gruppen von bis zu 16 Personen gleichzeitig auf einen Ausflug geschickt werden.",
+    "p2": "Eventyrbåde bietet ein Begleitboot auf Ausflügen an – lassen Sie Ihren Proviant und andere Gegenstände während Ihrer Reise leicht transportieren. Wenn die Teilnehmer eine Pause brauchen, ist es möglich, an Bord der Motoryacht Shetland zu kommen.",
+    "p3": "Schreiben Sie uns für Informationen über die Möglichkeiten und für ein Gesamtangebot.",
+    "cta": "Kontakt für Angebot"
+  },
+  "safety": {
+    "title": "Verantwortung und Sicherheit",
+    "p1": "Das Segeln auf dem Fjord muss mit guter Seemannschaft und unter Berücksichtigung der Natur und anderer Segler durchgeführt werden. Eventyrbåde hat eine Haftpflichtversicherung für das Unternehmen, aber die Versicherung deckt keine Personenschäden oder andere Unfälle ab. Bitte wenden Sie sich hierzu an Ihre eigene Freizeit-/Unfallversicherung. Der Konsum von Alkohol auf dem Wasser ist erlaubt, jedoch maximal 0,5 Promille für die Bootsführer.",
+    "p2": "Alle Boote und Ausrüstung werden von unseren Mitarbeitern vor jedem Segeltörn überprüft. Die ausgehändigten Karten der Segelrouten auf dem Præstø Fjord müssen eingehalten werden. Alle Touren beinhalten die Leihe von Schwimmwesten und eine kurze Einführung in die grundlegende Verwendung der verschiedenen Bootstypen.",
+    "p3": "Eventyrbåde behält sich das Recht vor, die Segelzeit mit sofortiger Wirkung zu stornieren, ohne die Möglichkeit einer finanziellen Entschädigung für verlorene Segelzeit im Falle der Nichteinhaltung der oben genannten Punkte. Denken Sie daran: die Sicherheit aller auf dem Wasser hat höchste Priorität."
+  },
+  "contact": {
+    "title": "Habt ihr Fragen?",
+    "form_title": "Schreib eine Nachricht",
+    "name": "Name",
+    "lastName": "Nachname",
+    "email": "Email",
+    "phone": "Telefon",
+    "message": "Nachricht",
+    "submit": "Schreib eine Nachricht an Eventyrbåde",
+    "call_label": "Ruf uns an",
+    "email_label": "Email",
+    "location_label": "Besuche uns",
+    "location1": "Feddet Strand Resort, Faxe",
+    "location2": "oder Præstø Hafen",
+    "map_title": "Præstø Fjord"
+  },
+  "about": {
+    "title": "Über mich",
+    "intro": "H.C. Andersen – Dänemarks weltberühmter Märchenerzähler – hinterließ vor vielen Jahren seine Fußabdrücke in der schönen Marktstadt Præstø. Zusammen mit meiner Liebe zu Booten hat mich dies dazu inspiriert, Eventyrbåde zu gründen, das im Mittelpunkt des Unternehmens steht.",
+    "p2": "Ich bekam mein erstes Fischerboot von meinem Vater, als ich 12 Jahre alt war, und fuhr um die Kanäle von Christianshavn in Kopenhagen herum. Natürlich bin ich oft am bekannten Bootsverleih Christianshavns Kanal vorbeigesegelt – vielleicht war das der Keim der Idee, die ich Jahre später verwirklichte.",
+    "p3": "Als ich 17 Jahre alt war, fuhr ich mit dem Schulschiff Georg Stage zur See. Noch am selben Tag wurde ich als unerfahrener Seemann auf einem kleinen Küstenmotorschiff in die Handelsmarine eingezogen. Die Reise ging über den Suezkanal, das Rote Meer und den Indischen Ozean – ja, bis nach Australien. So segelte ich als junger Mann mein Lebensabenteuer. Seitdem habe ich viele Boote besessen und kenne mein Fahrwasser.",
+    "p4": "Ich freue mich darauf, Sie bei Eventyrbåde & Feddet Strand Resort willkommen zu heißen.",
+    "signature": "Mit Piratengrüßen, Kim"
+  },
+  "giftcard": {
+    "title": "Geschenkkarten kaufen",
+    "text": "Verschenken Sie ein unvergessliches Erlebnis! Buchen Sie Ihre ganz persönliche Wassersafari im Glaskanu und beobachten Sie Fische – vielleicht sogar einen Seehund oder Schweinswal.",
+    "cta": "Anrufen für Geschenkkarten: (+45) 6053 4381"
+  },
+  "footer": {
+    "visit_title": "Besuche uns",
+    "visit1": "Feddet Strand Resort, Faxe",
+    "visit2": "oder Præstø Hafen",
+    "visit3": "Dänemark",
+    "about_title": "Über Eventyrbåde",
+    "cvr": "CVR: 21901687",
+    "about_link": "Über mich",
+    "contact_title": "Kontaktiere uns",
+    "hours_title": "Öffnungszeiten",
+    "hours_period": "Juni – September",
+    "hours_days": "Samstag & Sonntag",
+    "hours_time": "10:00 – 18:00",
+    "copyright": "Alle Rechte vorbehalten."
+  }
+}

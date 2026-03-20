@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "boats": "Både",
+    "about": "Om mig",
+    "contact": "Kontakt",
+    "giftcard": "Køb gavekort",
+    "phone": "6053 4381"
+  },
+  "hero": {
+    "title": "Eventyrbåde",
+    "subtitle": "Oplevelser på vandet ved Præstø Fjord",
+    "text": "Vores eventyrbåde er perfekte til fødselsdage, temafester, firmaevents eller bare en sjov dag på vandet. Vi skræddersyr også gerne arrangementer efter dine specifikke ønsker.",
+    "cta_contact": "Kontakt os",
+    "cta_boats": "Se vores både"
+  },
+  "boats": {
+    "title": "Vores Både",
+    "cta": "Kontakt os",
+    "glaskano": {
+      "title": "Glaskano",
+      "desc": "Book jeres helt egen vandsafari i kanoen af glas og spot fisk – måske tilmed en sæl eller et marsvin."
+    },
+    "picnic": {
+      "title": "Picnic Boat",
+      "desc": "Nyd en medbragt frokostkurv med familie eller venner på en afslappende tur rundt på fjorden."
+    },
+    "children": {
+      "title": "Sejlrute for børn",
+      "desc": "En særlig sejlrute i glaskano til børnefamilien, hvor I skal finde piratflag og løse opgaver."
+    }
+  },
+  "skipper": {
+    "title": "Nu kan du blive \"skipper\" for 1 dag",
+    "text": "4 timers frokosttur i Picnicbåd til den Hvide Lagune på spidsen af Feddet. Hop i bølgen blå eller sejl på hyggetur til Præstø Havn.",
+    "price": "Pris kun kr. 1.200",
+    "note": "Ring for ledige tider. Følg den planlagte sejlrute fra Feddet Strand Resort (Fed Havn). Der kræves ikke sejlerbevis, dog minimum 21 år.",
+    "detail1": "Godkendt op til 8 personer eller 690 kg",
+    "detail2": "Benzin er inkluderet i prisen",
+    "detail3": "Lån af redningsveste inkluderet",
+    "detail4": "Fri parkering ved havnen på Feddet Strand Resort",
+    "cta": "Ring og book"
+  },
+  "events": {
+    "title": "Events for virksomheder og institutioner",
+    "p1": "Glaskanoer kan sendes afsted i hold med op til 16 personer og Picnic Boats 16 personer ad gangen.",
+    "p2": "Eventyrbåde tilbyder også følgebåd på udflugterne, så I let kan få transporteret jeres proviant og andet habengut med rundt på turen. Har deltagerne brug for et hvil, er det muligt at komme ombord på motorbåden Shetland.",
+    "p3": "Ring eller skriv for samlet tilbud samt information om mulighederne.",
+    "cta": "Kontakt os for tilbud"
+  },
+  "safety": {
+    "title": "Ansvar og sikkerhed",
+    "p1": "Sejlads på fjorden skal udføres med godt sømandskab og med hensyn til naturen og andre sejlere. Eventyrbåde har ansvarsforsikring på virksomheden, men forsikringen dækker ikke ved personskader eller andre ulykker. Dertil henvises til egen fritids-/ulykkesforsikring. Indtagelse af alkohol på vandet er tilladt, men maksimalt 0,5 promille for bådførerne.",
+    "p2": "Alle både og udstyr kontrolleres af medarbejderne hver gang inden ny sejlads. Udleveret kort over sejlruter på Præstø Fjord skal respekteres og overholdes. Alle ture er inkl. lån af svømmevest og kort introduktion til grundlæggende brug af de forskellige bådtyper.",
+    "p3": "Eventyrbåde forbeholder sig retten til at indstille sejltiden med øjeblikkelig virkning uden mulighed for økonomisk kompensation for tabt sejltid i tilfælde af, at ovennævnte ikke overholdes. Husk: det handler om vores fælles sikkerhed på vandet."
+  },
+  "contact": {
+    "title": "Har du spørgsmål?",
+    "form_title": "Send en besked",
+    "name": "Navn",
+    "lastName": "Efternavn",
+    "email": "Email",
+    "phone": "Telefon",
+    "message": "Besked",
+    "submit": "Send besked til Eventyrbåde",
+    "call_label": "Ring til os",
+    "email_label": "Email",
+    "location_label": "Besøg os",
+    "location1": "Feddet Strand Resort, Faxe",
+    "location2": "eller Præstø Havn",
+    "map_title": "Præstø Fjord"
+  },
+  "about": {
+    "title": "Om mig",
+    "intro": "H.C. Andersens – Danmarks verdensberømte eventyrfortæller – har over mange år trådt sine fodspor i vores smukke købstad, Præstø. Deraf kom idéen på navnet Eventyrbåde, som er omdrejningspunktet i virksomheden.",
+    "p2": "Jeg fik selv min første fiskerjolle af min far som 12-årig og tøffede rundt på Christianshavn Kanaler og ud på Øresund for at fiske. Selvfølgelig sejlede jeg også tit forbi Christianshavns kanalsbådudlejning og måske netop derfor en senere, spirende idé.",
+    "p3": "17 år gammel stak jeg til søs med skoleskibet Georg Stage og straks ved afmønstring samme døgn, påmønstrede jeg i Handelsflåden som ubefaren matros på en lille coaster. Turen gik over Suezkanalen, Rødehavet og det Indiske Ocean, ja helt til Australien – og dér sejlede jeg mit livs eventyr som ung dreng. Lige siden har jeg haft adskillige både og kender mit farvand.",
+    "p4": "Jeg ser frem til at byde velkommen til Eventyrbåde & Feddet Strand Resort.",
+    "signature": "Mange pirathilsner, Kim"
+  },
+  "giftcard": {
+    "title": "Køb gavekort",
+    "text": "Giv en uforglemmelig oplevelse i gave! Book jeres helt egen vandsafari i kanoen af glas og spot fisk – måske tilmed en sæl eller et marsvin.",
+    "cta": "Ring for gavekort: (+45) 6053 4381"
+  },
+  "footer": {
+    "visit_title": "Besøg os",
+    "visit1": "Feddet Strand Resort, Faxe",
+    "visit2": "eller Præstø Havn",
+    "visit3": "Danmark",
+    "about_title": "Om Eventyrbåde",
+    "cvr": "CVR: 21901687",
+    "about_link": "Om mig",
+    "contact_title": "Kontakt os",
+    "hours_title": "Åbningstider",
+    "hours_period": "Juni – September",
+    "hours_days": "Lørdag & Søndag",
+    "hours_time": "10:00 – 18:00",
+    "copyright": "Alle rettigheder forbeholdes."
+  }
+}

@@ -85,6 +85,35 @@
   cursor: pointer;
 }
 
+.nav-lang {
+  display: flex;
+  gap: 4px;
+}
+
+.nav-lang button {
+  background: none;
+  border: 1px solid rgba(255,255,255,0.4);
+  color: rgba(255,255,255,0.7);
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 4px 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s;
+  font-family: var(--font-body);
+}
+
+.nav-lang button:hover {
+  border-color: var(--white);
+  color: var(--white);
+}
+
+.nav-lang button.active {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--navy);
+}
+
 @media (max-width: 768px) {
   .menu-toggle { display: block; }
   .nav-links {

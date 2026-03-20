@@ -1,27 +1,24 @@
 import React from 'react';
+import { useTranslation } from 'react-i18next';
 import './SkipperSection.css';
 
 function SkipperSection() {
+  const { t } = useTranslation();
+
   return (
     <section className="section skipper-section">
       <div className="skipper-content">
-        <h2>Nu kan du blive "skipper" for 1 dag</h2>
-        <p>
-          4 timers frokosttur i Picnicbåd til den Hvide Lagune på spidsen af
-          Feddet. Hop i bølgen blå eller sejl på hyggetur til Præstø Havn.
-        </p>
-        <div className="skipper-price">Pris kun kr. 1.200</div>
-        <p className="skipper-note">
-          Ring for ledige tider. Følg den planlagte sejlrute fra Feddet Strand Resort
-          (Fed Havn). Der kræves ikke sejlerbevis, dog minimum 21 år.
-        </p>
+        <h2>{t('skipper.title')}</h2>
+        <p>{t('skipper.text')}</p>
+        <div className="skipper-price">{t('skipper.price')}</div>
+        <p className="skipper-note">{t('skipper.note')}</p>
         <ul className="skipper-details">
-          <li>Godkendt op til 8 personer eller 690 kg</li>
-          <li>Benzin er inkluderet i prisen</li>
-          <li>Lån af redningsveste inkluderet</li>
-          <li>Fri parkering ved havnen på Feddet Strand Resort</li>
+          <li>{t('skipper.detail1')}</li>
+          <li>{t('skipper.detail2')}</li>
+          <li>{t('skipper.detail3')}</li>
+          <li>{t('skipper.detail4')}</li>
         </ul>
-        <a href="tel:+4560534381" className="btn-primary">Ring og book</a>
+        <a href="tel:+4560534381" className="btn-primary">{t('skipper.cta')}</a>
       </div>
     </section>
   );

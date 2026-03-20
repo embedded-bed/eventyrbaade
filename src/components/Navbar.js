@@ -1,12 +1,14 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FaBars, FaTimes, FaPhone } from 'react-icons/fa';
+import { useTranslation } from 'react-i18next';
 import './Navbar.css';
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [scrolled, setScrolled] = useState(false);
   const location = useLocation();
+  const { t, i18n } = useTranslation();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 50);
@@ -24,6 +26,11 @@ function Navbar() {
     }
     const el = document.getElementById(id);
     if (el) el.scrollIntoView({ behavior: 'smooth' });
+  };
+
+  const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
+    localStorage.setItem('lang', lng);
   };
 
   const isHome = location.pathname === '/';
@@ -44,12 +51,26 @@ function Navbar() {
         </button>
 
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-          <li><a href="#typer" onClick={(e) => { e.preventDefault(); scrollToSection('typer'); }}>Både</a></li>
-          <li><Link to="/om-mig">Om mig</Link></li>
-          <li><a href="#kontakt" onClick={(e) => { e.preventDefault(); scrollToSection('kontakt'); }}>Kontakt</a></li>
-          <li><Link to="/koeb-gavekort">Køb gavekort</Link></li>
+          <li><a href="#typer" onClick={(e) => { e.preventDefault(); scrollToSection('typer'); }}>{t('nav.boats')}</a></li>
+          <li><Link to="/om-mig">{t('nav.about')}</Link></li>
+          <li><a href="#kontakt" onClick={(e) => { e.preventDefault(); scrollToSection('kontakt'); }}>{t('nav.contact')}</a></li>
+          <li><Link to="/koeb-gavekort">{t('nav.giftcard')}</Link></li>
           <li className="nav-phone">
-            <a href="tel:+4560534381"><FaPhone /> 6053 4381</a>
+            <a href="tel:+4560534381"><FaPhone /> {t('nav.phone')}</a>
+          </li>
+          <li className="nav-lang">
+            <button
+              className={i18n.language === 'da' ? 'active' : ''}
+              onClick={() => changeLanguage('da')}
+            >DA</button>
+            <button
+              className={i18n.language === 'de' ? 'active' : ''}
+              onClick={() => changeLanguage('de')}
+            >DE</button>
+            <button
+              className={i18n.language === 'en' ? 'active' : ''}
+              onClick={() => changeLanguage('en')}
+            >EN</button>
           </li>
         </ul>
       </div>

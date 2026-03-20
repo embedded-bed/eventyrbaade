@@ -1,0 +1,100 @@
+{
+  "nav": {
+    "boats": "Boats",
+    "about": "About me",
+    "contact": "Contact",
+    "giftcard": "Buy gift card",
+    "phone": "6053 4381"
+  },
+  "hero": {
+    "title": "Eventyrbåde",
+    "subtitle": "Adventures on the water at Præstø Fjord",
+    "text": "Our adventure boats are perfect for birthdays, themed parties, corporate events or simply a fun day on the water. We are also happy to tailor arrangements to your specific wishes.",
+    "cta_contact": "Contact us",
+    "cta_boats": "See our boats"
+  },
+  "boats": {
+    "title": "Our Boats",
+    "cta": "Contact us",
+    "glaskano": {
+      "title": "Glass Canoe",
+      "desc": "Book your very own water safari in the glass-bottomed canoe and spot fish – maybe even a seal or a porpoise."
+    },
+    "picnic": {
+      "title": "Picnic Boat",
+      "desc": "Enjoy a packed lunch with family or friends on a relaxing trip around the fjord."
+    },
+    "children": {
+      "title": "Sailing Route for Children",
+      "desc": "A special sailing route in the glass canoe for families with children, where you must find pirate flags and complete challenges."
+    }
+  },
+  "skipper": {
+    "title": "Be a \"skipper\" for 1 day",
+    "text": "A 4-hour lunch trip in the Picnic Boat to the White Lagoon at the tip of Feddet. Jump in the water or sail leisurely to Præstø Harbour.",
+    "price": "Price only kr. 1,200",
+    "note": "Call for available times. Follow the planned sailing route from Feddet Strand Resort (Fed Harbour). No sailing licence required, minimum age 21.",
+    "detail1": "Approved for up to 8 people or 690 kg",
+    "detail2": "Fuel is included in the price",
+    "detail3": "Loan of life jackets included",
+    "detail4": "Free parking at the harbour at Feddet Strand Resort",
+    "cta": "Call and book"
+  },
+  "events": {
+    "title": "Events for businesses and institutions",
+    "p1": "Glass canoes can be sent out in groups of up to 16 people and Picnic Boats 16 people at a time.",
+    "p2": "Eventyrbåde also offers an escort boat on excursions, so you can easily transport your provisions and other belongings during the trip. If participants need a rest, it is possible to come aboard the motor boat Shetland.",
+    "p3": "Call or write for a combined offer and information about the possibilities.",
+    "cta": "Contact us for a quote"
+  },
+  "safety": {
+    "title": "Responsibility and safety",
+    "p1": "Sailing on the fjord must be carried out with good seamanship and with consideration for nature and other sailors. Eventyrbåde has liability insurance for the business, but the insurance does not cover personal injury or other accidents. For this, please refer to your own leisure/accident insurance. Consumption of alcohol on the water is permitted, but a maximum of 0.5 per mille for the boat operators.",
+    "p2": "All boats and equipment are checked by staff before each new sailing trip. The provided map of sailing routes on Præstø Fjord must be respected and followed. All trips include the loan of a life jacket and a brief introduction to the basic use of the different boat types.",
+    "p3": "Eventyrbåde reserves the right to terminate sailing time with immediate effect without the possibility of financial compensation for lost sailing time in the event that the above is not observed. Remember: it is all about our shared safety on the water."
+  },
+  "contact": {
+    "title": "Do you have questions?",
+    "form_title": "Send a message",
+    "name": "First name",
+    "lastName": "Last name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message",
+    "submit": "Send message to Eventyrbåde",
+    "call_label": "Call us",
+    "email_label": "Email",
+    "location_label": "Visit us",
+    "location1": "Feddet Strand Resort, Faxe",
+    "location2": "or Præstø Harbour",
+    "map_title": "Præstø Fjord"
+  },
+  "about": {
+    "title": "About me",
+    "intro": "H.C. Andersen – Denmark's world-famous fairytale author – left his footsteps in our beautiful market town of Præstø over many years. This inspired the name Eventyrbåde, which is the heart of the business.",
+    "p2": "I got my first fishing dinghy from my father at the age of 12 and puttered around the Christianshavn canals and out on the Øresund to fish. I often sailed past the Christianshavn canal boat hire too — perhaps that planted the seed for what became a later idea.",
+    "p3": "At 17 I went to sea on the school ship Georg Stage, and the very same day I signed off, I joined the merchant fleet as an inexperienced sailor on a small coaster. The voyage took us through the Suez Canal, the Red Sea and the Indian Ocean — all the way to Australia. That is where I sailed the adventure of my life as a young man. Ever since I have owned numerous boats and know my waters well.",
+    "p4": "I look forward to welcoming you to Eventyrbåde & Feddet Strand Resort.",
+    "signature": "Many pirate greetings, Kim"
+  },
+  "giftcard": {
+    "title": "Buy a gift card",
+    "text": "Give an unforgettable experience as a gift! Book your very own water safari in the glass-bottomed canoe and spot fish – maybe even a seal or a porpoise.",
+    "cta": "Call for gift cards: (+45) 6053 4381"
+  },
+  "footer": {
+    "visit_title": "Visit us",
+    "visit1": "Feddet Strand Resort, Faxe",
+    "visit2": "or Præstø Harbour",
+    "visit3": "Denmark",
+    "about_title": "About Eventyrbåde",
+    "cvr": "CVR: 21901687",
+    "about_link": "About me",
+    "contact_title": "Contact us",
+    "hours_title": "Opening hours",
+    "hours_period": "June – September",
+    "hours_days": "Saturday & Sunday",
+    "hours_time": "10:00 – 18:00",
+    "copyright": "All rights reserved."
+  }
+}
