@@ -16,6 +16,16 @@
   font-size: 1.05rem;
 }
 
+.about-intro {
+  font-family: var(--font-heading);
+  font-size: 1.25rem !important;
+  color: var(--navy) !important;
+  line-height: 1.7;
+  border-left: 4px solid var(--gold);
+  padding-left: 20px;
+  margin-bottom: 32px !important;
+}
+
 .about-signature {
   font-family: var(--font-heading);
   font-size: 1.3rem;

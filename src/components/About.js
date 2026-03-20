@@ -6,8 +6,8 @@ function About() {
     <section className="section about-section">
       <h2 className="section-title">Om mig</h2>
       <div className="about-content">
-        <p>
-          H.C. Andersens – Danmarks verdensberømte eventyrfortæller – har over
+        <p className="about-intro">
+          H.C. Andersens - Danmarks verdensberømte eventyrfortæller - har over
           mange år trådt sine fodspor i vores smukke købstad, Præstø. Deraf kom
           idéen på navnet Eventyrbåde, som er omdrejningspunktet i virksomheden.
         </p>
@@ -21,7 +21,7 @@ function About() {
           17 år gammel stak jeg til søs med skoleskibet Georg Stage og straks ved
           afmønstring samme døgn, påmønstrede jeg i Handelsflåden som ubefaren
           matros på en lille coaster. Turen gik over Suezkanalen, Rødehavet og
-          det Indiske Ocean, ja helt til Australien – og dér sejlede jeg mit
+          det Indiske Ocean, ja helt til Australien - og dér sejlede jeg mit
           livs eventyr som ung dreng. Lige siden har jeg haft adskillige både og
           kender mit farvand.
         </p>

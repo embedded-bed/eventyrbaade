@@ -60,6 +60,16 @@ function Contact() {
           </div>
         </div>
       </div>
+
+      <div className="contact-map">
+        <iframe
+          title="Præstø Fjord"
+          src="https://maps.google.com/maps?q=Præstø+Fjord,+Danmark&t=&z=13&ie=UTF8&iwloc=&output=embed"
+          allowFullScreen
+          loading="lazy"
+          referrerPolicy="no-referrer-when-downgrade"
+        />
+      </div>
     </section>
   );
 }
