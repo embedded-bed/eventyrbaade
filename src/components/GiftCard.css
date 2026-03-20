@@ -1,0 +1,28 @@
+.giftcard-section {
+  background: var(--sand);
+  max-width: 100%;
+  padding: 100px 20px;
+  min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.giftcard-content {
+  text-align: center;
+  max-width: 600px;
+}
+
+.giftcard-icon {
+  font-size: 4rem;
+  color: var(--gold);
+  margin-bottom: 24px;
+}
+
+.giftcard-content p {
+  color: var(--text-light);
+  line-height: 1.7;
+  margin-bottom: 30px;
+  font-size: 1.1rem;
+}

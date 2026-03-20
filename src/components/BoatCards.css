@@ -1,0 +1,50 @@
+.boat-cards-section {
+  background: var(--sand);
+  max-width: 100%;
+  padding: 80px 20px;
+}
+
+.boat-cards-section .section-title {
+  margin-bottom: 50px;
+}
+
+.boat-cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.boat-card {
+  background: var(--white);
+  border-radius: 12px;
+  padding: 40px 30px;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.boat-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+.boat-card-icon {
+  font-size: 2.5rem;
+  color: var(--ocean);
+  margin-bottom: 20px;
+}
+
+.boat-card h3 {
+  font-family: var(--font-heading);
+  font-size: 1.5rem;
+  color: var(--navy);
+  margin-bottom: 14px;
+}
+
+.boat-card p {
+  color: var(--text-light);
+  margin-bottom: 24px;
+  line-height: 1.6;
+}

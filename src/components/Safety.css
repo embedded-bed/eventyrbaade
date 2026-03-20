@@ -1,0 +1,16 @@
+.safety-section {
+  background: var(--sand);
+  max-width: 100%;
+  padding: 80px 20px;
+}
+
+.safety-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.safety-content p {
+  color: var(--text-light);
+  margin-bottom: 16px;
+  line-height: 1.7;
+}

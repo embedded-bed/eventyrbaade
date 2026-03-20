@@ -1,0 +1,19 @@
+.events-section {
+  background: var(--white);
+}
+
+.events-content {
+  max-width: 750px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.events-content p {
+  margin-bottom: 16px;
+  color: var(--text-light);
+  line-height: 1.7;
+}
+
+.events-content .btn-primary {
+  margin-top: 20px;
+}

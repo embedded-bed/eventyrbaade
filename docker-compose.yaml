@@ -1,0 +1,7 @@
+services:
+  web:
+    container_name: eventyrbaade
+    image: eventyrbaade
+    ports:
+      - "5000:80"
+    restart: unless-stopped

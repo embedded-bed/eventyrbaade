@@ -1,0 +1,58 @@
+.skipper-section {
+  background: var(--navy);
+  color: var(--white);
+  max-width: 100%;
+  padding: 80px 20px;
+}
+
+.skipper-content {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skipper-content h2 {
+  font-family: var(--font-heading);
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.skipper-content p {
+  opacity: 0.9;
+  margin-bottom: 16px;
+  line-height: 1.7;
+}
+
+.skipper-price {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--gold);
+  margin: 24px 0;
+}
+
+.skipper-note {
+  font-size: 0.95rem;
+  opacity: 0.75;
+}
+
+.skipper-details {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin: 30px 0;
+  text-align: left;
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.skipper-details li::before {
+  content: '✓ ';
+  color: var(--gold);
+  font-weight: 700;
+}
+
+@media (max-width: 600px) {
+  .skipper-details { grid-template-columns: 1fr; }
+}
