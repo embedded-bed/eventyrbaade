@@ -9,6 +9,12 @@ Built with React, served via nginx in Docker.
 - [Docker](https://docs.docker.com/get-docker/)
 - [just](https://github.com/casey/just) (command runner)
 
+## Cloudflared
+Add tunnel key to `secrets/cloudflared/cloudflared.env`:
+```bash
+TUNNEL_TOKEN=
+```
+
 ## Getting started
 
 Build the Docker image:
