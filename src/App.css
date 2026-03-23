@@ -73,6 +73,7 @@ img {
   display: inline-block;
   border: 2px solid var(--white);
   color: var(--white);
+  background: var(--ocean);
   padding: 12px 28px;
   border-radius: 6px;
   font-weight: 600;
