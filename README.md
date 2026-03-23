@@ -4,6 +4,8 @@ Website for Eventyrbåde — boat rental and water experiences at Præstø Fjord
 
 Built with React, served via nginx in Docker.
 
+Note: The frontend of this project is vibe coded. I am not a frontend developer.
+
 ## Prerequisites
 
 - [Docker](https://docs.docker.com/get-docker/)
