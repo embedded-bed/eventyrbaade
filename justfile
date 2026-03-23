@@ -20,6 +20,6 @@ run:
 stop:
     docker compose down
 
-# Deploy updates to the server with rsync (example: just deploy srv@10.0.5.28)
+# Deploy updates to the eventyrbaade with rsync (example: just deploy srv@10.0.5.28)
 deploy destination port="22":
-    rsync --rsh='ssh -p {{ port }}' --exclude-from=./rsync-exclude.txt -av ./* {{destination}}:~/server
+    rsync --rsh='ssh -p {{ port }}' --exclude-from=./rsync-exclude.txt -av ./* {{destination}}:~/eventyrbaade
