@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFish, FaUtensils, FaFlag } from 'react-icons/fa';
+import { FaFish, FaUtensils } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import './BoatCards.css';
 
@@ -9,7 +9,6 @@ function BoatCards() {
   const boats = [
     { icon: <FaFish />, title: t('boats.glaskano.title'), desc: t('boats.glaskano.desc') },
     { icon: <FaUtensils />, title: t('boats.picnic.title'), desc: t('boats.picnic.desc') },
-    { icon: <FaFlag />, title: t('boats.children.title'), desc: t('boats.children.desc') },
   ];
 
   return (

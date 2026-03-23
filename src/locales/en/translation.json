@@ -23,10 +23,6 @@
     "picnic": {
       "title": "Picnic Boat",
       "desc": "Enjoy a packed lunch with family or friends on a relaxing trip around the fjord."
-    },
-    "children": {
-      "title": "Sailing Route for Children",
-      "desc": "A special sailing route in the glass canoe for families with children, where you must find pirate flags and complete challenges."
     }
   },
   "skipper": {

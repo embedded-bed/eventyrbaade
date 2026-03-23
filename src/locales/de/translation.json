@@ -23,10 +23,6 @@
     "picnic": {
       "title": "Picknickboot",
       "desc": "Genießen Sie ein Lunchpaket mit Familie oder Freunden bei einer entspannten Fahrt rund um den Fjord."
-    },
-    "children": {
-      "title": "Segelroute für Kinder",
-      "desc": "Eine spezielle Segelroute für Familien mit Kindern im Glaskanu, bei der Sie Piratenflaggen finden und Aufgaben lösen müssen."
     }
   },
   "skipper": {

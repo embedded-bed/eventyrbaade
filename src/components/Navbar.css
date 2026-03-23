@@ -115,7 +115,11 @@
 }
 
 @media (max-width: 768px) {
-  .menu-toggle { display: block; }
+  .menu-toggle {
+    display: block;
+    position: relative;
+    z-index: 1001;
+  }
   .nav-links {
     position: fixed;
     top: 0;

@@ -23,10 +23,6 @@
     "picnic": {
       "title": "Picnic Boat",
       "desc": "Nyd en medbragt frokostkurv med familie eller venner på en afslappende tur rundt på fjorden."
-    },
-    "children": {
-      "title": "Sejlrute for børn",
-      "desc": "En særlig sejlrute i glaskano til børnefamilien, hvor I skal finde piratflag og løse opgaver."
     }
   },
   "skipper": {
