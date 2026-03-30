@@ -12,7 +12,7 @@ Note: The frontend of this project is vibe coded. I am not a frontend developer.
 - [just](https://github.com/casey/just) (command runner)
 
 ## Cloudflared
-Add tunnel key to `secrets/cloudflared/cloudflared.env`:
+Add tunnel key to `secrets/cloudflared/cloudflared.env` and `secrets/cloudflared/cloudflared-ssh.env`:
 ```bash
 TUNNEL_TOKEN=
 ```
