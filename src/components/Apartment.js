@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaHome, FaBed, FaUsers, FaMapMarkerAlt, FaPhone, FaEnvelope, FaCheck } from 'react-icons/fa';
+import { FaHome, FaBed, FaUsers, FaMapMarkerAlt, FaPhone, FaEnvelope, FaCheck, FaAnchor, FaUmbrellaBeach, FaShip } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import './Apartment.css';
 
@@ -36,6 +36,12 @@ function Apartment() {
         <div className="apartment-info">
           <div className="apartment-intro">
             <p>{t('apartment.intro')}</p>
+          </div>
+
+          <div className="apartment-distances">
+            <div className="apartment-distance"><FaAnchor /> {t('apartment.walk_harbor')}</div>
+            <div className="apartment-distance"><FaUmbrellaBeach /> {t('apartment.walk_beach')}</div>
+            <div className="apartment-distance"><FaShip /> {t('apartment.boat_tip')}</div>
           </div>
 
           <div className="apartment-highlights">

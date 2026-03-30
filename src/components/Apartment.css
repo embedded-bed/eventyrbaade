@@ -98,6 +98,32 @@
   margin: 0;
 }
 
+.apartment-distances {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.apartment-distance {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background: var(--white);
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: var(--navy);
+  font-weight: 600;
+  font-size: 0.95rem;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.06);
+}
+
+.apartment-distance svg {
+  color: var(--ocean);
+  font-size: 1.1rem;
+  flex-shrink: 0;
+}
+
 .apartment-highlights {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
