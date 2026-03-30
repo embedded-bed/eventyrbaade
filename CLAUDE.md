@@ -24,11 +24,13 @@ Eventyrbåde — a pure information website for a boat rental business operating
 
 ## Architecture
 
-The app is a purely static information SPA with three routes:
+The app is a purely static information SPA with five routes:
 
-- `/` — home page (hero, boat cards, skipper offer, events, safety, contact)
+- `/` — home page (hero, boat cards, skipper offer, weekly trip, events, safety, contact)
 - `/om-mig` — about page (Kim's story)
 - `/koeb-gavekort` — gift card page (phone-based, no online purchase)
+- `/galleri` — gallery page (photos from the fjord and activities)
+- `/ferielejlighed` — holiday apartment page (1 bedroom, no terrace)
 
 All CTAs direct visitors to the contact section or phone number — there is no online booking or payment flow.
 
