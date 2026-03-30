@@ -9,3 +9,6 @@ build/
 
 .DS_Store
 *.log
+
+# Notes for self
+notes.txt
