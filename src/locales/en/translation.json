@@ -4,6 +4,8 @@
     "about": "About me",
     "contact": "Contact",
     "giftcard": "Buy gift card",
+    "gallery": "Gallery",
+    "apartment": "Holiday Apartment",
     "phone": "6053 4381"
   },
   "hero": {
@@ -15,6 +17,7 @@
   },
   "boats": {
     "title": "Our Boats",
+    "custom": "We are happy to tailor experiences to your specific wishes",
     "cta": "Contact us",
     "glaskano": {
       "title": "Glass Canoe",
@@ -78,6 +81,54 @@
     "text": "Give an unforgettable experience as a gift! Book your very own water safari in the glass-bottomed canoe and spot fish – maybe even a seal or a porpoise.",
     "cta": "Call for gift cards: (+45) 6053 4381"
   },
+  "weeklyTrip": {
+    "title": "Weekly canoe trip every Wednesday",
+    "intro": "Every Wednesday in June, July, and August there is a shared excursion in glass canoes to the hidden spots along the coast.",
+    "schedule": "Every Wednesday in June – July – August",
+    "time": "Departure 18:30 – return 20:00",
+    "meetup": "Meeting time 18:15 for instructions and life jacket distribution",
+    "payment": "Payment: MobilePay or cash (DKK/EUR)",
+    "adult_label": "Adult",
+    "child_label": "Children under 18",
+    "escort": "An escort boat accompanies the entire trip in case you need a rest — so everyone can participate.",
+    "cta": "Contact us"
+  },
+  "apartment": {
+    "title": "Holiday Apartment at Præstø Fjord",
+    "subtitle": "Stay close to the water and enjoy the perfect seaside holiday",
+    "image_coming": "Photo coming soon",
+    "price_from": "From",
+    "price": "kr. 800",
+    "price_per": "per night",
+    "intro": "Enjoy a relaxing holiday in our cosy apartment, located close to Præstø Fjord. Perfect for couples or a small family wanting to experience the beautiful South Zealand coastline.",
+    "rooms_label": "Bedrooms",
+    "rooms": "1 bedroom",
+    "guests_label": "Guests",
+    "guests": "Up to 2 people",
+    "location_label": "Location",
+    "location": "Præstø Fjord",
+    "features_title": "Amenities",
+    "feature1": "Fully equipped kitchen",
+    "feature2": "Free WiFi",
+    "feature3": "Free parking",
+    "feature4": "Close to the fjord",
+    "feature5": "Close to beach and nature",
+    "feature6": "Bed linen and towels included",
+    "desc1": "The apartment is ideally located for guests who want to combine a holiday experience with water activities. Book a canoe trip or picnic boat and make your holiday extra adventurous.",
+    "desc2": "The area offers beautiful hiking trails, fishing opportunities, and the charming town of Præstø with cafés and shops just a few minutes' drive away.",
+    "contact_title": "Contact us to book",
+    "cta": "Call to book the apartment"
+  },
+  "gallery": {
+    "title": "Gallery",
+    "intro": "Experience nature and adventure at Præstø Fjord",
+    "kano": "Glass canoe",
+    "kano_trip": "Canoe trip along the coast",
+    "picnic": "Picnic boats",
+    "fishing": "Fishing",
+    "seal": "Seals in the fjord",
+    "seal2": "A visiting seal"
+  },
   "footer": {
     "visit_title": "Visit us",
     "visit1": "Feddet Strand Resort, Faxe",
@@ -91,6 +142,7 @@
     "hours_period": "June – September",
     "hours_days": "Saturday & Sunday",
     "hours_time": "10:00 – 18:00",
-    "copyright": "All rights reserved."
+    "copyright": "All rights reserved.",
+    "facebook": "Find us on Facebook"
   }
 }

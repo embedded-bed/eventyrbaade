@@ -4,6 +4,8 @@
     "about": "Über mich",
     "contact": "Kontakt",
     "giftcard": "Geschenkkarten kaufen",
+    "gallery": "Galerie",
+    "apartment": "Ferienwohnung",
     "phone": "6053 4381"
   },
   "hero": {
@@ -15,6 +17,7 @@
   },
   "boats": {
     "title": "Unsere Boote",
+    "custom": "Wir gestalten gerne Erlebnisse nach Ihren speziellen Wünschen",
     "cta": "Kontakt",
     "glaskano": {
       "title": "Glaskanu",
@@ -78,6 +81,54 @@
     "text": "Verschenken Sie ein unvergessliches Erlebnis! Buchen Sie Ihre ganz persönliche Wassersafari im Glaskanu und beobachten Sie Fische – vielleicht sogar einen Seehund oder Schweinswal.",
     "cta": "Anrufen für Geschenkkarten: (+45) 6053 4381"
   },
+  "weeklyTrip": {
+    "title": "Wöchentliche Kanutour jeden Mittwoch",
+    "intro": "Jeden Mittwoch im Juni, Juli und August gibt es einen gemeinsamen Ausflug im Glaskanu zu den verborgenen Orten entlang der Küste.",
+    "schedule": "Jeden Mittwoch im Juni – Juli – August",
+    "time": "Abfahrt 18:30 – Rückkehr 20:00",
+    "meetup": "Treffpunkt 18:15 für Einweisung und Schwimmwestenausgabe",
+    "payment": "Bezahlung: MobilePay oder bar (DKK/EUR)",
+    "adult_label": "Erwachsene",
+    "child_label": "Kinder unter 18",
+    "escort": "Ein Begleitboot fährt die gesamte Tour mit, falls die Kräfte nachlassen — so kann jeder teilnehmen.",
+    "cta": "Kontaktieren Sie uns"
+  },
+  "apartment": {
+    "title": "Ferienwohnung am Præstø Fjord",
+    "subtitle": "Wohnen Sie nah am Wasser und genießen Sie den perfekten Urlaub am Fjord",
+    "image_coming": "Foto kommt bald",
+    "price_from": "Ab",
+    "price": "kr. 800",
+    "price_per": "pro Nacht",
+    "intro": "Genießen Sie einen erholsamen Urlaub in unserer gemütlichen Ferienwohnung, nahe am Præstø Fjord gelegen. Perfekt für Paare oder eine kleine Familie, die die schöne Küstenlandschaft Südseeland erleben möchten.",
+    "rooms_label": "Schlafzimmer",
+    "rooms": "1 Schlafzimmer",
+    "guests_label": "Gäste",
+    "guests": "Bis zu 2 Personen",
+    "location_label": "Lage",
+    "location": "Præstø Fjord",
+    "features_title": "Ausstattung",
+    "feature1": "Voll ausgestattete Küche",
+    "feature2": "Kostenloses WLAN",
+    "feature3": "Kostenloser Parkplatz",
+    "feature4": "Nahe am Fjord",
+    "feature5": "Nahe am Strand und Natur",
+    "feature6": "Bettwäsche und Handtücher inkl.",
+    "desc1": "Die Wohnung ist ideal gelegen für Gäste, die einen Urlaub mit Wasseraktivitäten kombinieren möchten. Buchen Sie eine Kanutour oder ein Picknickboot und machen Sie Ihren Urlaub besonders abenteuerlich.",
+    "desc2": "Die Umgebung bietet schöne Wanderwege, Angelmöglichkeiten und die charmante Kleinstadt Præstø mit Cafés und Geschäften nur wenige Autominuten entfernt.",
+    "contact_title": "Kontaktieren Sie uns zur Buchung",
+    "cta": "Anrufen und Wohnung buchen"
+  },
+  "gallery": {
+    "title": "Galerie",
+    "intro": "Erleben Sie die Natur und das Abenteuer am Præstø Fjord",
+    "kano": "Glaskanu",
+    "kano_trip": "Kanutour entlang der Küste",
+    "picnic": "Picknickboote",
+    "fishing": "Angeln",
+    "seal": "Robben im Fjord",
+    "seal2": "Ein Robbenbesuch"
+  },
   "footer": {
     "visit_title": "Besuche uns",
     "visit1": "Feddet Strand Resort, Faxe",
@@ -91,6 +142,7 @@
     "hours_period": "Juni – September",
     "hours_days": "Samstag & Sonntag",
     "hours_time": "10:00 – 18:00",
-    "copyright": "Alle Rechte vorbehalten."
+    "copyright": "Alle Rechte vorbehalten.",
+    "facebook": "Finden Sie uns auf Facebook"
   }
 }

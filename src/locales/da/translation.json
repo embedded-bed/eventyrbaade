@@ -4,6 +4,8 @@
     "about": "Om mig",
     "contact": "Kontakt",
     "giftcard": "Køb gavekort",
+    "gallery": "Galleri",
+    "apartment": "Ferielejlighed",
     "phone": "6053 4381"
   },
   "hero": {
@@ -15,6 +17,7 @@
   },
   "boats": {
     "title": "Vores Både",
+    "custom": "Vi skræddersyr også gerne jeres specifikke ønsker",
     "cta": "Kontakt os",
     "glaskano": {
       "title": "Glaskano",
@@ -78,6 +81,54 @@
     "text": "Giv en uforglemmelig oplevelse i gave! Book jeres helt egen vandsafari i kanoen af glas og spot fisk – måske tilmed en sæl eller et marsvin.",
     "cta": "Ring for gavekort: (+45) 6053 4381"
   },
+  "weeklyTrip": {
+    "title": "Fælles kanotur hver onsdag",
+    "intro": "Hver onsdag i juni, juli og august er der fælles udflugt i Glaskano på de skjulte steder langs kysten.",
+    "schedule": "Hver onsdag i juni – juli – august",
+    "time": "Afgangstid 18:30 – hjemkomst 20:00",
+    "meetup": "Mødetid 18:15 til instruktion og udlevering af redningsvest",
+    "payment": "Betaling: MobilePay eller kontant (DKK/EUR)",
+    "adult_label": "Voksen",
+    "child_label": "Børn under 18 år",
+    "escort": "Der er følgebåd med under hele turen, hvis kræfterne slipper op — så alle kan deltage.",
+    "cta": "Kontakt os"
+  },
+  "apartment": {
+    "title": "Ferielejlighed ved Præstø Fjord",
+    "subtitle": "Bo tæt på vandet og nyd den perfekte ferie ved fjorden",
+    "image_coming": "Billede kommer snart",
+    "price_from": "Fra",
+    "price": "kr. 800",
+    "price_per": "pr. nat",
+    "intro": "Nyd en afslappende ferie i vores hyggelige ferielejlighed, beliggende tæt ved Præstø Fjord. Perfekt til par eller en lille familie, der ønsker at opleve det smukke sydsjællandske kystlandskab.",
+    "rooms_label": "Soveværelser",
+    "rooms": "1 soveværelse",
+    "guests_label": "Gæster",
+    "guests": "Op til 2 personer",
+    "location_label": "Beliggenhed",
+    "location": "Præstø Fjord",
+    "features_title": "Faciliteter",
+    "feature1": "Fuldt udstyret køkken",
+    "feature2": "Gratis WiFi",
+    "feature3": "Gratis parkering",
+    "feature4": "Tæt på fjorden",
+    "feature5": "Tæt på strand og natur",
+    "feature6": "Sengetøj og håndklæder inkl.",
+    "desc1": "Lejligheden er ideelt beliggende for gæster, der ønsker at kombinere en ferieoplevelse med aktiviteter på vandet. Book en kanotur eller picnicbåd og gør ferien ekstra eventyrlig.",
+    "desc2": "Området byder på smukke vandrestier, fiskemuligheder og den charmerende købstad Præstø med caféer og butikker blot få minutters kørsel væk.",
+    "contact_title": "Kontakt os for booking",
+    "cta": "Ring og book lejligheden"
+  },
+  "gallery": {
+    "title": "Galleri",
+    "intro": "Oplev naturen og eventyret på Præstø Fjord",
+    "kano": "Glaskano",
+    "kano_trip": "Kanotur langs kysten",
+    "picnic": "Picnicbåde",
+    "fishing": "Lystfiskeri",
+    "seal": "Sæler i fjorden",
+    "seal2": "Sæl på besøg"
+  },
   "footer": {
     "visit_title": "Besøg os",
     "visit1": "Feddet Strand Resort, Faxe",
@@ -91,6 +142,7 @@
     "hours_period": "Juni – September",
     "hours_days": "Lørdag & Søndag",
     "hours_time": "10:00 – 18:00",
-    "copyright": "Alle rettigheder forbeholdes."
+    "copyright": "Alle rettigheder forbeholdes.",
+    "facebook": "Mød os på Facebook"
   }
 }

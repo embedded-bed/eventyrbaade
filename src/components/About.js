@@ -8,12 +8,17 @@ function About() {
   return (
     <section className="section about-section">
       <h2 className="section-title">{t('about.title')}</h2>
-      <div className="about-content">
-        <p className="about-intro">{t('about.intro')}</p>
-        <p>{t('about.p2')}</p>
-        <p>{t('about.p3')}</p>
-        <p>{t('about.p4')}</p>
-        <p className="about-signature">{t('about.signature')}</p>
+      <div className="about-layout">
+        <div className="about-image">
+          <img src="/images/kim.png" alt="Kim – Eventyrbåde" />
+        </div>
+        <div className="about-content">
+          <p className="about-intro">{t('about.intro')}</p>
+          <p>{t('about.p2')}</p>
+          <p>{t('about.p3')}</p>
+          <p>{t('about.p4')}</p>
+          <p className="about-signature">{t('about.signature')}</p>
+        </div>
       </div>
     </section>
   );

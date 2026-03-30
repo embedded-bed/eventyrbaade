@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
 import GiftCardPage from './pages/GiftCardPage';
+import GalleryPage from './pages/GalleryPage';
+import ApartmentPage from './pages/ApartmentPage';
 import './App.css';
 
 function App() {
@@ -15,6 +17,8 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/om-mig" element={<AboutPage />} />
         <Route path="/koeb-gavekort" element={<GiftCardPage />} />
+        <Route path="/galleri" element={<GalleryPage />} />
+        <Route path="/ferielejlighed" element={<ApartmentPage />} />
       </Routes>
       <Footer />
     </div>

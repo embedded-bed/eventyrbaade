@@ -5,12 +5,19 @@
 }
 
 .boat-cards-section .section-title {
+  margin-bottom: 10px;
+}
+
+.section-subtitle {
+  text-align: center;
+  color: var(--text-light);
+  font-size: 1.1rem;
   margin-bottom: 50px;
 }
 
 .boat-cards {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 30px;
   max-width: 1100px;
   margin: 0 auto;
@@ -19,8 +26,7 @@
 .boat-card {
   background: var(--white);
   border-radius: 12px;
-  padding: 40px 30px;
-  text-align: center;
+  overflow: hidden;
   box-shadow: 0 4px 20px rgba(0,0,0,0.08);
   transition: transform 0.3s, box-shadow 0.3s;
 }
@@ -28,6 +34,28 @@
 .boat-card:hover {
   transform: translateY(-6px);
   box-shadow: 0 8px 30px rgba(0,0,0,0.12);
+}
+
+.boat-card-image {
+  width: 100%;
+  height: 220px;
+  overflow: hidden;
+}
+
+.boat-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.4s;
+}
+
+.boat-card:hover .boat-card-image img {
+  transform: scale(1.05);
+}
+
+.boat-card-body {
+  padding: 30px;
+  text-align: center;
 }
 
 .boat-card-icon {
@@ -47,4 +75,10 @@
   color: var(--text-light);
   margin-bottom: 24px;
   line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+  .boat-cards {
+    grid-template-columns: 1fr;
+  }
 }

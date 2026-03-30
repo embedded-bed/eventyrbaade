@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { FaFacebookF } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import './Footer.css';
 
@@ -24,6 +25,9 @@ function Footer() {
           <h4>{t('footer.contact_title')}</h4>
           <a href="tel:+4560534381">60 53 43 81</a>
           <a href="mailto:mail@eventyrbaade.dk">mail@eventyrbaade.dk</a>
+          <a href="https://www.facebook.com/eventyrbaade" target="_blank" rel="noopener noreferrer" className="footer-facebook">
+            <FaFacebookF /> {t('footer.facebook')}
+          </a>
         </div>
         <div className="footer-col">
           <h4>{t('footer.hours_title')}</h4>

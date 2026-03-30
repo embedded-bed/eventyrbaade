@@ -114,6 +114,24 @@
   color: var(--navy);
 }
 
+.nav-facebook a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  border: 1px solid rgba(255,255,255,0.4);
+  border-radius: 50%;
+  font-size: 0.9rem;
+  transition: all 0.3s;
+}
+
+.nav-facebook a:hover {
+  background: var(--gold);
+  border-color: var(--gold);
+  color: var(--navy) !important;
+}
+
 @media (max-width: 768px) {
   .menu-toggle {
     display: block;
