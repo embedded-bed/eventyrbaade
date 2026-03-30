@@ -40,10 +40,10 @@ Components live in `src/components/`, each with a co-located CSS file. Pages in 
 
 - One component per file, one CSS file per component
 - CSS variables defined in `:root` in App.css (--navy, --ocean, --sand, --gold, etc.)
-- Danish content — the site is in Danish, keep all user-facing text in Danish
+- i18n via react-i18next — translations in `src/locales/{da,en,de}/translation.json`, Danish is the primary language
 - All CTAs link to `#kontakt` (contact section) or `tel:` links — no external booking services
 - Contact form uses `mailto:` to open the user's email client
-- Images currently hotlinked from the original WordPress site at eventyrbaade.dk
+- Images served locally from `public/images/` — use ASCII filenames to avoid URL encoding issues
 
 ## Docker
 
