@@ -11,7 +11,7 @@ function WeeklyTrip() {
       <h2 className="section-title">{t('weeklyTrip.title')}</h2>
       <div className="weekly-trip-layout">
         <div className="weekly-trip-image">
-          <img src="/images/kano2.jpg" alt={t('weeklyTrip.title')} />
+          <img src="/images/canoe2.jpg" alt={t('weeklyTrip.title')} />
         </div>
         <div className="weekly-trip-content">
           <p className="weekly-trip-intro">{t('weeklyTrip.intro')}</p>

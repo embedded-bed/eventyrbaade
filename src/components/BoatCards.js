@@ -7,8 +7,8 @@ function BoatCards() {
   const { t } = useTranslation();
 
   const boats = [
-    { icon: <FaFish />, image: '/images/kano1.jpg', title: t('boats.glaskano.title'), desc: t('boats.glaskano.desc') },
-    { icon: <FaUtensils />, image: '/images/picnicbåde.jpg', title: t('boats.picnic.title'), desc: t('boats.picnic.desc') },
+    { icon: <FaFish />, image: '/images/canoe1.jpg', title: t('boats.glaskano.title'), desc: t('boats.glaskano.desc') },
+    { icon: <FaUtensils />, image: '/images/picnicboat.gif', title: t('boats.picnic.title'), desc: t('boats.picnic.desc') },
   ];
 
   return (

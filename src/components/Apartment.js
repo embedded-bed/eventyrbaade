@@ -1,10 +1,26 @@
-import React from 'react';
-import { FaHome, FaBed, FaUsers, FaMapMarkerAlt, FaPhone, FaEnvelope, FaCheck, FaAnchor, FaUmbrellaBeach, FaShip } from 'react-icons/fa';
+import React, { useState } from 'react';
+import { FaBed, FaUsers, FaMapMarkerAlt, FaPhone, FaEnvelope, FaCheck, FaAnchor, FaUmbrellaBeach, FaShip, FaChevronLeft, FaChevronRight } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import './Apartment.css';
 
+const apartmentImages = [
+  { src: '/images/livingroom2.jpg', key: 'apartment.gallery_livingroom' },
+  { src: '/images/bed.jpg', key: 'apartment.gallery_bedroom' },
+  { src: '/images/bedroom2.jpg', key: 'apartment.gallery_bedroom2' },
+  { src: '/images/kitchen1.jpg', key: 'apartment.gallery_kitchen' },
+  { src: '/images/shower.jpg', key: 'apartment.gallery_shower' },
+  { src: '/images/bathroom.jpg', key: 'apartment.gallery_bathroom' },
+  { src: '/images/welcome.jpg', key: 'apartment.gallery_welcome' },
+  { src: '/images/parking1.jpeg', key: 'apartment.gallery_parking' },
+  { src: '/images/keybox.jpg', key: 'apartment.gallery_keybox' },
+];
+
 function Apartment() {
   const { t } = useTranslation();
+  const [currentImage, setCurrentImage] = useState(0);
+
+  const nextImage = () => setCurrentImage((prev) => (prev + 1) % apartmentImages.length);
+  const prevImage = () => setCurrentImage((prev) => (prev - 1 + apartmentImages.length) % apartmentImages.length);
 
   const features = [
     t('apartment.feature1'),
@@ -22,9 +38,26 @@ function Apartment() {
 
       <div className="apartment-layout">
         <div className="apartment-hero-image">
-          <div className="apartment-placeholder">
-            <FaHome className="apartment-placeholder-icon" />
-            <span>{t('apartment.image_coming')}</span>
+          <img
+            src={apartmentImages[currentImage].src}
+            alt={t(apartmentImages[currentImage].key)}
+            className="apartment-main-img"
+          />
+          <button className="apartment-nav apartment-nav-prev" onClick={prevImage} aria-label="Previous">
+            <FaChevronLeft />
+          </button>
+          <button className="apartment-nav apartment-nav-next" onClick={nextImage} aria-label="Next">
+            <FaChevronRight />
+          </button>
+          <div className="apartment-dots">
+            {apartmentImages.map((_, i) => (
+              <button
+                key={i}
+                className={`apartment-dot ${i === currentImage ? 'active' : ''}`}
+                onClick={() => setCurrentImage(i)}
+                aria-label={`Image ${i + 1}`}
+              />
+            ))}
           </div>
           <div className="apartment-price-badge">
             <span className="apartment-price-from">{t('apartment.price_from')}</span>

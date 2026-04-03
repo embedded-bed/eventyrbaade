@@ -54,4 +54,3 @@ A cloudflared tunnel is used for routing trafic to the web application and handl
 ## Future plans
 
 - Grafana for server metrics (will be added to docker-compose)
-- Self-hosted images instead of hotlinking WordPress

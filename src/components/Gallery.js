@@ -6,12 +6,16 @@ function Gallery() {
   const { t } = useTranslation();
 
   const images = [
-    { src: '/images/kano1.jpg', caption: t('gallery.kano') },
-    { src: '/images/kano2.jpg', caption: t('gallery.kano_trip') },
-    { src: '/images/picnicbåde.jpg', caption: t('gallery.picnic') },
-    { src: '/images/Lystfiskeri.jpg', caption: t('gallery.fishing') },
-    { src: '/images/sæl.jpg', caption: t('gallery.seal') },
+    { src: '/images/canoe1.jpg', caption: t('gallery.kano') },
+    { src: '/images/canoe2.jpg', caption: t('gallery.kano_trip') },
+    { src: '/images/picnicboats.jpg', caption: t('gallery.picnic') },
+    { src: '/images/picnicboat.gif', caption: t('gallery.picnic_trip') },
+    { src: '/images/fishing.jpg', caption: t('gallery.fishing') },
+    { src: '/images/seal.jpg', caption: t('gallery.seal') },
     { src: '/images/sael2.png', caption: t('gallery.seal2') },
+    { src: '/images/mons-klint-denmark.jpg', caption: t('gallery.klint') },
+    { src: '/images/mons-klint-beach.jpg', caption: t('gallery.klint_beach') },
+    { src: '/images/mocca.jpg', caption: t('gallery.cafe') },
   ];
 
   return (

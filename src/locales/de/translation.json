@@ -119,6 +119,15 @@
     "feature6": "Bettwäsche, Handtücher und Geschirrtücher inkl.",
     "desc1": "Die Wohnung ist ideal gelegen für Gäste, die einen Urlaub mit Wasseraktivitäten kombinieren möchten. Suchen Sie nach extra Spannung? Mieten Sie Picknickboote bei Eventyrbåde — nur 5 Minuten zu Fuß zum Hafen.",
     "desc2": "Die Umgebung bietet schöne Wanderwege, Angelmöglichkeiten und die charmante Kleinstadt Præstø mit Cafés und Geschäften. Nur 10 Minuten zu Fuß zum Strand.",
+    "gallery_livingroom": "Wohnzimmer",
+    "gallery_bedroom": "Schlafzimmer mit Hochbett",
+    "gallery_bedroom2": "Schlafzimmer",
+    "gallery_kitchen": "Küche",
+    "gallery_shower": "Dusche",
+    "gallery_bathroom": "Badezimmer",
+    "gallery_welcome": "Willkommen",
+    "gallery_parking": "Parkplatz",
+    "gallery_keybox": "Schlüsselkasten",
     "contact_title": "Kontaktieren Sie uns zur Buchung",
     "cta": "Anrufen und Wohnung buchen"
   },
@@ -128,9 +137,13 @@
     "kano": "Glaskanu",
     "kano_trip": "Kanutour entlang der Küste",
     "picnic": "Picknickboote",
+    "picnic_trip": "Picknickbootfahrt",
     "fishing": "Angeln",
     "seal": "Robben im Fjord",
-    "seal2": "Ein Robbenbesuch"
+    "seal2": "Ein Robbenbesuch",
+    "klint": "Møns Klint",
+    "klint_beach": "Møns Klint Strand",
+    "cafe": "Café am Hafen"
   },
   "footer": {
     "visit_title": "Besuche uns",
