@@ -6,7 +6,6 @@ import './Apartment.css';
 const apartmentImages = [
   { src: '/images/livingroom2.jpg', key: 'apartment.gallery_livingroom' },
   { src: '/images/bed.jpg', key: 'apartment.gallery_bedroom' },
-  { src: '/images/bedroom2.jpg', key: 'apartment.gallery_bedroom2' },
   { src: '/images/kitchen1.jpg', key: 'apartment.gallery_kitchen' },
   { src: '/images/shower.jpg', key: 'apartment.gallery_shower' },
   { src: '/images/bathroom.jpg', key: 'apartment.gallery_bathroom' },

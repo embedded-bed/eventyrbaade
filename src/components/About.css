@@ -6,9 +6,9 @@
 
 .about-layout {
   display: grid;
-  grid-template-columns: 300px 1fr;
+  grid-template-columns: 420px 1fr;
   gap: 50px;
-  max-width: 900px;
+  max-width: 1050px;
   margin: 0 auto;
   align-items: start;
 }
