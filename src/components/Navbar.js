@@ -40,7 +40,7 @@ function Navbar() {
       <div className="navbar-inner">
         <Link to="/" className="navbar-logo">
           <img
-            src="http://eventyrbaade.dk/wp-content/uploads/2022/01/Eventyrbaade_nyt-logo-90-x-90-px.png"
+            src="/images/logo.png"
             alt="Eventyrbåde logo"
           />
           <span>Eventyrbåde</span>

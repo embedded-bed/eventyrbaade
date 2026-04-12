@@ -12,6 +12,8 @@ const apartmentImages = [
   { src: '/images/welcome.jpg', key: 'apartment.gallery_welcome' },
   { src: '/images/parking1.jpeg', key: 'apartment.gallery_parking' },
   { src: '/images/keybox.jpg', key: 'apartment.gallery_keybox' },
+  { src: '/images/mons-klint-beach.jpg', key: 'apartment.gallery_mons_klint_beach' },
+  { src: '/images/mons-klint-denmark.jpg', key: 'apartment.gallery_mons_klint' },
 ];
 
 function Apartment() {

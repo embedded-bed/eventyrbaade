@@ -35,8 +35,9 @@
 }
 
 .navbar-logo img {
-  width: 45px;
-  height: 45px;
+  width: 90px;
+  height: 90px;
+  background-color: transparent;
 }
 
 .nav-links {
