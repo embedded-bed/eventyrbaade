@@ -1,11 +1,11 @@
 services:
-  cloudflared:
+  cloudflared-web:
     image: cloudflare/cloudflared:2026.3.0
-    container_name: cloudflared
+    container_name: cloudflared-web
     restart: ${RESTART_POLICY:-unless-stopped}
     command: tunnel --no-autoupdate run
     env_file:
-      - secrets/cloudflared/cloudflared.env
+      - secrets/cloudflared/cloudflared-web.env
     networks:
       - server
 
