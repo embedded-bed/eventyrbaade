@@ -120,8 +120,11 @@
     "desc1": "The apartment is ideally located for guests who want to combine a holiday experience with water activities. Looking for extra excitement? Rent picnic boats at Eventyrbåde — only 5 minutes' walk to the harbour.",
     "desc2": "The area offers beautiful hiking trails, fishing opportunities, and the charming town of Præstø with cafés and shops. Only 10 minutes' walk to the beach.",
     "gallery_livingroom": "Living room",
+    "gallery_livingroom2": "Living room",
     "gallery_bedroom": "Bedroom with loft",
     "gallery_bedroom2": "Bedroom",
+    "gallery_loft": "Loft room",
+    "gallery_loft2": "Loft room",
     "gallery_kitchen": "Kitchen",
     "gallery_shower": "Shower",
     "gallery_bathroom": "Bathroom",
@@ -145,7 +148,9 @@
     "seal2": "A visiting seal",
     "klint": "Møns Klint",
     "klint_beach": "Møns Klint beach",
-    "cafe": "Café at the harbour"
+    "cafe": "Café at the harbour",
+    "foresttower": "The Forest Tower",
+    "harbour": "Præstø Harbour"
   },
   "footer": {
     "visit_title": "Visit us",

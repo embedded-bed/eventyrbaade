@@ -16,6 +16,8 @@ function Gallery() {
     { src: '/images/mons-klint-denmark.jpg', caption: t('gallery.klint') },
     { src: '/images/mons-klint-beach.jpg', caption: t('gallery.klint_beach') },
     { src: '/images/mocca.jpg', caption: t('gallery.cafe') },
+    { src: '/images/foresttower.jpg', caption: t('gallery.foresttower') },
+    { src: '/images/harbour.jpg', caption: t('gallery.harbour') },
   ];
 
   return (

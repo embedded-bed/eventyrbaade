@@ -120,8 +120,11 @@
     "desc1": "Lejligheden er ideelt beliggende for gæster, der ønsker at kombinere en ferieoplevelse med aktiviteter på vandet. Søger I ekstra spænding kan der lejes picnicbåde ved Eventyrbåde — der er kun 5 minutters gang til havn.",
     "desc2": "Området byder på smukke vandrestier, fiskemuligheder og den charmerende købstad Præstø med caféer og butikker. Kun 10 minutters gang til strand.",
     "gallery_livingroom": "Stue",
+    "gallery_livingroom2": "Stue",
     "gallery_bedroom": "Soveværelse med hems",
     "gallery_bedroom2": "Soveværelse",
+    "gallery_loft": "Hems",
+    "gallery_loft2": "Hems",
     "gallery_kitchen": "Køkken",
     "gallery_shower": "Brusebad",
     "gallery_bathroom": "Badeværelse",
@@ -145,7 +148,9 @@
     "seal2": "Sæl på besøg",
     "klint": "Møns Klint",
     "klint_beach": "Møns Klint strand",
-    "cafe": "Café ved havnen"
+    "cafe": "Café ved havnen",
+    "foresttower": "Skovtårnet",
+    "harbour": "Præstø Havn"
   },
   "footer": {
     "visit_title": "Besøg os",

@@ -5,9 +5,11 @@ import './Apartment.css';
 
 const apartmentImages = [
   { src: '/images/livingroom2.jpg', key: 'apartment.gallery_livingroom' },
+  { src: '/images/livingroom.jpg', key: 'apartment.gallery_livingroom2' },
   { src: '/images/bed.jpg', key: 'apartment.gallery_bedroom' },
+  { src: '/images/loft.jpg', key: 'apartment.gallery_loft' },
+  { src: '/images/loft2.jpg', key: 'apartment.gallery_loft2' },
   { src: '/images/kitchen1.jpg', key: 'apartment.gallery_kitchen' },
-  { src: '/images/shower.jpg', key: 'apartment.gallery_shower' },
   { src: '/images/bathroom.jpg', key: 'apartment.gallery_bathroom' },
   { src: '/images/welcome.jpg', key: 'apartment.gallery_welcome' },
   { src: '/images/parking1.jpeg', key: 'apartment.gallery_parking' },
