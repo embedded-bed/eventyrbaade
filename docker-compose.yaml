@@ -18,10 +18,38 @@ services:
       - secrets/cloudflared/cloudflared-ssh.env
     network_mode: host
 
+  traefik:
+    image: traefik:v3.6.13
+    container_name: traefik
+    restart: unless-stopped
+    command:
+      - "--providers.docker=true"
+      - "--providers.docker.exposedbydefault=false"
+      - "--providers.docker.network=server"
+      - "--entrypoints.web.address=:80"
+    ports:
+      - "80:80"
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+    networks:
+      - server
+
   web:
     container_name: eventyrbaade
     image: eventyrbaade
     restart: unless-stopped
+    labels:
+      - "traefik.enable=true"
+      # eventyrbaade.dk -> web:80
+      - "traefik.http.routers.eventyrbaade.rule=Host(`eventyrbaade.dk`)"
+      - "traefik.http.routers.eventyrbaade.entrypoints=web"
+      # bedandboat.dk -> web:80/ferielejlighed
+      - "traefik.http.routers.bedandboat.rule=Host(`bedandboat.dk`)"
+      - "traefik.http.routers.bedandboat.entrypoints=web"
+      - "traefik.http.routers.bedandboat.middlewares=bedandboat-redirect"
+      - "traefik.http.middlewares.bedandboat-redirect.redirectregex.regex=^https?://bedandboat\\.dk/?$$"
+      - "traefik.http.middlewares.bedandboat-redirect.redirectregex.replacement=https://eventyrbaade.dk/ferielejlighed"
+      - "traefik.http.middlewares.bedandboat-redirect.redirectregex.permanent=true"
     networks:
       - server
 
