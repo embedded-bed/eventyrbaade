@@ -12,6 +12,7 @@ Eventyrbåde — a pure information website for a boat rental business operating
 - Google Fonts (Playfair Display, Open Sans)
 - Docker multi-stage build (node:18-alpine → nginx:alpine)
 - nginx for serving the production build with SPA fallback
+- Traefik as reverse proxy for multi-domain routing
 - just as the command runner
 
 ## Commands
@@ -45,11 +46,18 @@ Components live in `src/components/`, each with a co-located CSS file. Pages in 
 - Contact form uses `mailto:` to open the user's email client
 - Images served locally from `public/images/` — use ASCII filenames to avoid URL encoding issues
 
-## Docker
+## Docker & Infrastructure
 
 The Dockerfile is a two-stage build: stage 1 builds with node, stage 2 serves with nginx. The nginx.conf handles SPA routing (try_files fallback to index.html) and static asset caching.
-A cloudflared tunnel is used for routing trafic to the web application and handle encryption in their infrastructure.
 
+### Domains & Routing
+
+Two domains serve the site, both routed through Cloudflare tunnels → Traefik → nginx:
+
+- **eventyrbaade.dk** — main site, Traefik forwards to `web:80`
+- **bedandboat.dk** — redirects (301) to `https://eventyrbaade.dk/ferielejlighed` via Traefik `redirectregex` middleware
+
+Cloudflared tunnels handle encryption. Traefik is configured entirely via Docker labels in `docker-compose.yaml` (no separate config file). The deployment runs on a Raspberry Pi.
 
 ## Future plans
 
