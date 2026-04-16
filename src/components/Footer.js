@@ -13,7 +13,6 @@ function Footer() {
         <div className="footer-col">
           <h4>{t('footer.visit_title')}</h4>
           <p>{t('footer.visit1')}</p>
-          <p>{t('footer.visit2')}</p>
           <p>{t('footer.visit3')}</p>
         </div>
         <div className="footer-col">

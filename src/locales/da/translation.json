@@ -65,7 +65,6 @@
     "email_label": "Email",
     "location_label": "Besøg os",
     "location1": "Feddet Strand Resort, Faxe",
-    "location2": "eller Præstø Havn",
     "map_title": "Præstø Fjord"
   },
   "about": {
@@ -111,7 +110,7 @@
     "location_label": "Beliggenhed",
     "location": "Præstø Fjord",
     "features_title": "Faciliteter",
-    "feature1": "Fuldt udstyret køkken",
+    "feature1": "Fuldt udstyret te-køkken",
     "feature2": "Gratis WiFi",
     "feature3": "Gratis parkering",
     "feature4": "Tæt på fjorden",
@@ -155,7 +154,6 @@
   "footer": {
     "visit_title": "Besøg os",
     "visit1": "Feddet Strand Resort, Faxe",
-    "visit2": "eller Præstø Havn",
     "visit3": "Danmark",
     "about_title": "Om Eventyrbåde",
     "cvr": "CVR: 21901687",

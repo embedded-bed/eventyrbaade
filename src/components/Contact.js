@@ -57,7 +57,6 @@ function Contact() {
             <div>
               <strong>{t('contact.location_label')}</strong>
               <span>{t('contact.location1')}</span>
-              <span>{t('contact.location2')}</span>
             </div>
           </div>
         </div>
