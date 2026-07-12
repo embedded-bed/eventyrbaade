@@ -1,7 +1,7 @@
 services:
   cloudflared-web:
     image: cloudflare/cloudflared:2026.3.0
-    container_name: cloudflared-web
+    container_name: eventyrbaade-cloudflared-web
     restart: ${RESTART_POLICY:-unless-stopped}
     command: tunnel --no-autoupdate run
     env_file:
@@ -11,7 +11,7 @@ services:
 
   cloudflared-ssh:
     image: cloudflare/cloudflared:2026.3.0
-    container_name: cloudflared-ssh
+    container_name: eventyrbaade-cloudflared-ssh
     restart: ${RESTART_POLICY:-unless-stopped}
     command: tunnel --no-autoupdate run
     env_file:
@@ -20,7 +20,7 @@ services:
 
   traefik:
     image: traefik:v3.6.13
-    container_name: traefik
+    container_name: eventyrbaade-traefik
     restart: unless-stopped
     command:
       - "--providers.docker=true"
@@ -35,7 +35,7 @@ services:
       - server
 
   web:
-    container_name: eventyrbaade
+    container_name: eventyrbaade-web
     image: eventyrbaade
     restart: unless-stopped
     labels:
