@@ -1,7 +1,7 @@
 import React from 'react';
 import Hero from '../components/Hero';
 import BoatCards from '../components/BoatCards';
-import WeeklyTrip from '../components/WeeklyTrip';
+import Swan from '../components/Swan';
 import SkipperSection from '../components/SkipperSection';
 import Events from '../components/Events';
 import Safety from '../components/Safety';
@@ -12,7 +12,7 @@ function HomePage() {
     <>
       <Hero />
       <BoatCards />
-      <WeeklyTrip />
+      <Swan />
       <SkipperSection />
       <Events />
       <Safety />

@@ -37,6 +37,7 @@
     "detail2": "Benzin ist im Preis inbegriffen",
     "detail3": "Leihe von Rettungswesten inklusive",
     "detail4": "Kostenloser Parkplatz am Hafen des Feddet Strand Resort",
+    "detail5": "Treffpunkt: 15 Minuten vor Abfahrt",
     "cta": "Anrufen und buchen"
   },
   "events": {
@@ -80,17 +81,22 @@
     "text": "Verschenken Sie ein unvergessliches Erlebnis! Buchen Sie Ihre ganz persönliche Wassersafari im Glaskanu und beobachten Sie Fische – vielleicht sogar einen Seehund oder Schweinswal.",
     "cta": "Anrufen für Geschenkkarten: (+45) 6053 4381"
   },
-  "weeklyTrip": {
-    "title": "Wöchentliche Kanutour jeden Mittwoch",
-    "intro": "Jeden Mittwoch im Juni, Juli und August gibt es einen gemeinsamen Ausflug im Glaskanu zu den verborgenen Orten entlang der Küste.",
-    "schedule": "Jeden Mittwoch im Juni – Juli – August",
-    "time": "Abfahrt 18:30 – Rückkehr 20:00",
-    "meetup": "Treffpunkt 18:15 für Einweisung und Schwimmwestenausgabe",
-    "payment": "Bezahlung: MobilePay oder bar (DKK/EUR)",
+  "swan": {
+    "title": "Fahrt mit The Swan",
+    "intro": "Geführte Bootstour auf dem Præstø Fjord mit The Swan! Eine Luxusfahrt zur Weißen Lagune, wo Sie im klarsten Wasser schwimmen können.",
+    "tagline": "Eine unvergessliche Fahrt mit Geschichten unterwegs — 2-stündige Segeltour",
+    "schedule1": "Abfahrt & Ankunft Dienstag & Donnerstag: 11:00 – 13:00",
+    "schedule2": "Abfahrt & Ankunft Samstag & Sonntag: 11:00 – 13:00",
+    "meetup": "Treffpunkt: 15 Minuten vor Abfahrt",
+    "onboard": "Kalte Softdrinks, Snacks & alkoholfreies Bier an Bord erhältlich",
     "adult_label": "Erwachsene",
-    "child_label": "Kinder unter 18",
-    "escort": "Ein Begleitboot fährt die gesamte Tour mit, falls die Kräfte nachlassen — so kann jeder teilnehmen.",
-    "cta": "Kontaktieren Sie uns"
+    "adult_price": "180 kr. / €24",
+    "child_label": "Kinder unter 12",
+    "child_price": "150 kr. / €20",
+    "event_label": "Das ganze Boot inkl. Bootsführer mieten",
+    "event_price": "1.200 kr./Stunde",
+    "event_note": "inkl. MwSt. — perfekt für Events",
+    "cta": "Kontaktiere uns"
   },
   "apartment": {
     "title": "Ferienwohnung am Præstø Fjord",

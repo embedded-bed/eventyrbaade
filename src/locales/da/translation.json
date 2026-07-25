@@ -37,6 +37,7 @@
     "detail2": "Benzin er inkluderet i prisen",
     "detail3": "Lån af redningsveste inkluderet",
     "detail4": "Fri parkering ved havnen på Feddet Strand Resort",
+    "detail5": "Mødetid: 15 minutter før afgang",
     "cta": "Ring og book"
   },
   "events": {
@@ -80,16 +81,21 @@
     "text": "Giv en uforglemmelig oplevelse i gave! Book jeres helt egen vandsafari i kanoen af glas og spot fisk – måske tilmed en sæl eller et marsvin.",
     "cta": "Ring for gavekort: (+45) 6053 4381"
   },
-  "weeklyTrip": {
-    "title": "Fælles kanotur hver onsdag",
-    "intro": "Hver onsdag i juni, juli og august er der fælles udflugt i Glaskano på de skjulte steder langs kysten.",
-    "schedule": "Hver onsdag i juni – juli – august",
-    "time": "Afgangstid 18:30 – hjemkomst 20:00",
-    "meetup": "Mødetid 18:15 til instruktion og udlevering af redningsvest",
-    "payment": "Betaling: MobilePay eller kontant (DKK/EUR)",
+  "swan": {
+    "title": "Sejlads med The Swan",
+    "intro": "Guidet bådtur på Præstø Fjord med The Swan! En luksustur mod den Hvide Lagune, hvor du kan svømme i det klareste vand.",
+    "tagline": "En uforglemmelig tur med historier undervejs — 2 timers sejltur",
+    "schedule1": "Afgang & ankomst tirsdag & torsdag: 11:00 – 13:00",
+    "schedule2": "Afgang & ankomst lørdag & søndag: 11:00 – 13:00",
+    "meetup": "Mødetid: 15 minutter før afgang",
+    "onboard": "Kolde sodavand, snacks & alkoholfri øl kan købes ombord",
     "adult_label": "Voksen",
-    "child_label": "Børn under 18 år",
-    "escort": "Der er følgebåd med under hele turen, hvis kræfterne slipper op — så alle kan deltage.",
+    "adult_price": "180 kr. / €24",
+    "child_label": "Børn under 12 år",
+    "child_price": "150 kr. / €20",
+    "event_label": "Leje af hele båden inkl. bådfører",
+    "event_price": "1.200 kr./time",
+    "event_note": "inkl. moms — perfekt til events",
     "cta": "Kontakt os"
   },
   "apartment": {

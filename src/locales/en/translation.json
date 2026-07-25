@@ -37,6 +37,7 @@
     "detail2": "Fuel is included in the price",
     "detail3": "Loan of life jackets included",
     "detail4": "Free parking at the harbour at Feddet Strand Resort",
+    "detail5": "Meeting time: 15 minutes before departure",
     "cta": "Call and book"
   },
   "events": {
@@ -80,16 +81,21 @@
     "text": "Give an unforgettable experience as a gift! Book your very own water safari in the glass-bottomed canoe and spot fish – maybe even a seal or a porpoise.",
     "cta": "Call for gift cards: (+45) 6053 4381"
   },
-  "weeklyTrip": {
-    "title": "Weekly canoe trip every Wednesday",
-    "intro": "Every Wednesday in June, July, and August there is a shared excursion in glass canoes to the hidden spots along the coast.",
-    "schedule": "Every Wednesday in June – July – August",
-    "time": "Departure 18:30 – return 20:00",
-    "meetup": "Meeting time 18:15 for instructions and life jacket distribution",
-    "payment": "Payment: MobilePay or cash (DKK/EUR)",
+  "swan": {
+    "title": "Sailing with The Swan",
+    "intro": "Guided boat tour on Præstø Fjord with The Swan! A luxury trip heading towards the White Lagoon, where you can swim in the clearest water.",
+    "tagline": "An unforgettable trip with stories along the way — 2-hour sail trip",
+    "schedule1": "Departure & arrival Tuesday & Thursday: 11:00 – 13:00",
+    "schedule2": "Departure & arrival Saturday & Sunday: 11:00 – 13:00",
+    "meetup": "Meeting time: 15 minutes before departure",
+    "onboard": "Cold sodas, snacks & alcohol-free beer available onboard",
     "adult_label": "Adult",
-    "child_label": "Children under 18",
-    "escort": "An escort boat accompanies the entire trip in case you need a rest — so everyone can participate.",
+    "adult_price": "DKK 180 / €24",
+    "child_label": "Children under 12",
+    "child_price": "DKK 150 / €20",
+    "event_label": "Rent the whole boat incl. skipper",
+    "event_price": "1,200 kr./hour",
+    "event_note": "incl. VAT — perfect for events",
     "cta": "Contact us"
   },
   "apartment": {

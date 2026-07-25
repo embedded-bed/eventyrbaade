@@ -17,6 +17,7 @@ function SkipperSection() {
           <li>{t('skipper.detail2')}</li>
           <li>{t('skipper.detail3')}</li>
           <li>{t('skipper.detail4')}</li>
+          <li>{t('skipper.detail5')}</li>
         </ul>
         <a href="tel:+4560534381" className="btn-primary">{t('skipper.cta')}</a>
       </div>
