@@ -25,7 +25,8 @@
     },
     "picnic": {
       "title": "Picknickboot",
-      "desc": "Genießen Sie ein Lunchpaket mit Familie oder Freunden bei einer entspannten Fahrt rund um den Fjord."
+      "desc": "Genießen Sie ein Lunchpaket mit Familie oder Freunden bei einer entspannten Fahrt rund um den Fjord.",
+      "schedule": "Picknickboot 18:00 – 20:00 Dienstag / Donnerstag"
     }
   },
   "skipper": {
@@ -85,7 +86,7 @@
     "title": "Fahrt mit The Swan",
     "intro": "Geführte Bootstour auf dem Præstø Fjord mit The Swan! Eine Luxusfahrt zur Weißen Lagune, wo Sie im klarsten Wasser schwimmen können.",
     "tagline": "Eine unvergessliche Fahrt mit Geschichten unterwegs — 2-stündige Segeltour",
-    "schedule1": "Abfahrt & Ankunft Dienstag & Donnerstag: 11:00 – 13:00",
+    "schedule1": "Sonnenuntergangsfahrt Dienstag & Donnerstag: 18:30 – 20:30",
     "schedule2": "Abfahrt & Ankunft Samstag & Sonntag: 11:00 – 13:00",
     "meetup": "Treffpunkt: 15 Minuten vor Abfahrt",
     "onboard": "Kalte Softdrinks, Snacks & alkoholfreies Bier an Bord erhältlich",
@@ -167,8 +168,10 @@
     "contact_title": "Kontaktiere uns",
     "hours_title": "Öffnungszeiten",
     "hours_period": "Juni – September",
-    "hours_days": "Täglich",
-    "hours_time": "10:00 – 18:00",
+    "hours_days1": "",
+    "hours_time1": "",
+    "hours_days2": "",
+    "hours_time2": "",
     "copyright": "Alle Rechte vorbehalten.",
     "facebook": "Finden Sie uns auf Facebook"
   }

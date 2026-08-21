@@ -25,7 +25,8 @@
     },
     "picnic": {
       "title": "Picnic Boat",
-      "desc": "Nyd en medbragt frokostkurv med familie eller venner på en afslappende tur rundt på fjorden."
+      "desc": "Nyd en medbragt frokostkurv med familie eller venner på en afslappende tur rundt på fjorden.",
+      "schedule": "Picnicbåd 18:00 – 20:00 tirsdag / torsdag"
     }
   },
   "skipper": {
@@ -85,7 +86,7 @@
     "title": "Sejlads med The Swan",
     "intro": "Guidet bådtur på Præstø Fjord med The Swan! En luksustur mod den Hvide Lagune, hvor du kan svømme i det klareste vand.",
     "tagline": "En uforglemmelig tur med historier undervejs — 2 timers sejltur",
-    "schedule1": "Afgang & ankomst tirsdag & torsdag: 11:00 – 13:00",
+    "schedule1": "Solnedgangstur tirsdag & torsdag: 18:30 – 20:30",
     "schedule2": "Afgang & ankomst lørdag & søndag: 11:00 – 13:00",
     "meetup": "Mødetid: 15 minutter før afgang",
     "onboard": "Kolde sodavand, snacks & alkoholfri øl kan købes ombord",
@@ -167,8 +168,10 @@
     "contact_title": "Kontakt os",
     "hours_title": "Åbningstider",
     "hours_period": "Juni – September",
-    "hours_days": "Alle dage",
-    "hours_time": "10:00 – 18:00",
+    "hours_days1": "",
+    "hours_time1": "",
+    "hours_days2": "",
+    "hours_time2": "",
     "copyright": "Alle rettigheder forbeholdes.",
     "facebook": "Mød os på Facebook"
   }

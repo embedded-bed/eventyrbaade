@@ -7,6 +7,15 @@ import './Footer.css';
 function Footer() {
   const { t } = useTranslation();
 
+  // Opening hours are driven entirely by the translation files — leave a value
+  // empty to hide that line, fill it in to bring it back. If every value is
+  // empty the whole column is left out.
+  const hoursPeriod = t('footer.hours_period');
+  const hours = [
+    { days: t('footer.hours_days1'), time: t('footer.hours_time1') },
+    { days: t('footer.hours_days2'), time: t('footer.hours_time2') },
+  ].filter((h) => h.days || h.time);
+
   return (
     <footer className="footer">
       <div className="footer-inner">
@@ -28,12 +37,18 @@ function Footer() {
             <FaFacebookF /> {t('footer.facebook')}
           </a>
         </div>
-        <div className="footer-col">
-          <h4>{t('footer.hours_title')}</h4>
-          <p>{t('footer.hours_period')}</p>
-          <p>{t('footer.hours_days')}</p>
-          <p>{t('footer.hours_time')}</p>
-        </div>
+        {(hoursPeriod || hours.length > 0) && (
+          <div className="footer-col">
+            <h4>{t('footer.hours_title')}</h4>
+            {hoursPeriod && <p>{hoursPeriod}</p>}
+            {hours.map((h, i) => (
+              <React.Fragment key={i}>
+                {h.days && <p className="footer-hours-days">{h.days}</p>}
+                {h.time && <p>{h.time}</p>}
+              </React.Fragment>
+            ))}
+          </div>
+        )}
       </div>
       <div className="footer-bottom">
         <p>© {new Date().getFullYear()} Eventyrbåde. {t('footer.copyright')}</p>

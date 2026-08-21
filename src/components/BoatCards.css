@@ -77,6 +77,21 @@
   line-height: 1.6;
 }
 
+.boat-card p.boat-card-schedule {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  color: var(--navy);
+  font-weight: 600;
+  margin-top: -10px;
+}
+
+.boat-card-schedule svg {
+  color: var(--ocean);
+  flex-shrink: 0;
+}
+
 @media (max-width: 768px) {
   .boat-cards {
     grid-template-columns: 1fr;

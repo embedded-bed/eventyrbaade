@@ -1,5 +1,5 @@
 import React from 'react';
-import { FaFish, FaUtensils } from 'react-icons/fa';
+import { FaFish, FaUtensils, FaRegClock } from 'react-icons/fa';
 import { useTranslation } from 'react-i18next';
 import './BoatCards.css';
 
@@ -8,7 +8,7 @@ function BoatCards() {
 
   const boats = [
     { icon: <FaFish />, image: '/images/canoe1.jpg', title: t('boats.glaskano.title'), desc: t('boats.glaskano.desc') },
-    { icon: <FaUtensils />, image: '/images/picnicboat.gif', title: t('boats.picnic.title'), desc: t('boats.picnic.desc') },
+    { icon: <FaUtensils />, image: '/images/picnicboat.gif', title: t('boats.picnic.title'), desc: t('boats.picnic.desc'), schedule: t('boats.picnic.schedule') },
   ];
 
   return (
@@ -25,6 +25,9 @@ function BoatCards() {
               <div className="boat-card-icon">{b.icon}</div>
               <h3>{b.title}</h3>
               <p>{b.desc}</p>
+              {b.schedule && (
+                <p className="boat-card-schedule"><FaRegClock /> {b.schedule}</p>
+              )}
               <a href="#kontakt" className="btn-primary">{t('boats.cta')}</a>
             </div>
           </div>

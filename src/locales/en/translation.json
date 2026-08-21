@@ -25,7 +25,8 @@
     },
     "picnic": {
       "title": "Picnic Boat",
-      "desc": "Enjoy a packed lunch with family or friends on a relaxing trip around the fjord."
+      "desc": "Enjoy a packed lunch with family or friends on a relaxing trip around the fjord.",
+      "schedule": "Picnic boat 18:00 – 20:00 Tuesday / Thursday"
     }
   },
   "skipper": {
@@ -85,7 +86,7 @@
     "title": "Sailing with The Swan",
     "intro": "Guided boat tour on Præstø Fjord with The Swan! A luxury trip heading towards the White Lagoon, where you can swim in the clearest water.",
     "tagline": "An unforgettable trip with stories along the way — 2-hour sail trip",
-    "schedule1": "Departure & arrival Tuesday & Thursday: 11:00 – 13:00",
+    "schedule1": "Sunset trip Tuesday & Thursday: 18:30 – 20:30",
     "schedule2": "Departure & arrival Saturday & Sunday: 11:00 – 13:00",
     "meetup": "Meeting time: 15 minutes before departure",
     "onboard": "Cold sodas, snacks & alcohol-free beer available onboard",
@@ -167,8 +168,10 @@
     "contact_title": "Contact us",
     "hours_title": "Opening hours",
     "hours_period": "June – September",
-    "hours_days": "Every day",
-    "hours_time": "10:00 – 18:00",
+    "hours_days1": "",
+    "hours_time1": "",
+    "hours_days2": "",
+    "hours_time2": "",
     "copyright": "All rights reserved.",
     "facebook": "Find us on Facebook"
   }

@@ -33,6 +33,11 @@
   color: var(--white);
 }
 
+.footer-hours-days {
+  margin-top: 10px;
+  color: rgba(255,255,255,0.9);
+}
+
 .footer-facebook {
   display: flex !important;
   align-items: center;
